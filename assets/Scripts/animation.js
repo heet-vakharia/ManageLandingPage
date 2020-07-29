@@ -11,7 +11,6 @@ var active = false;
 const navbarAnimation = () => {
   const tl = new TimelineMax();
   tl.from(".navbar", 1.5, {
-    scrollTrigger: ".navbar",
     opacity: 0,
     y: -100,
   });
@@ -128,7 +127,6 @@ const headerAnimation = () => {
     ".header--img",
     2,
     {
-      scrollTrigger: ".header",
       opacity: 0,
       x: 700,
     },
@@ -138,7 +136,6 @@ const headerAnimation = () => {
     ".header--content",
     2,
     {
-      scrollTrigger: ".header",
       opacity: 0,
       x: -700,
     },
