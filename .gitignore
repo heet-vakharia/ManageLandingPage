@@ -1,6 +1,6 @@
 .DS_Store
 /node_modules
-yarn.loc
+yarn.lock
 app.css.map
 package.json
 .vercel
