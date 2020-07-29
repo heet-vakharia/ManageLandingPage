@@ -3,22 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="assets/CSS/app.css">
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link rel="stylesheet" href="assets/CSS/app.css">
   <title>Frontend Mentor | Manage landing page</title>
 </head>
 <body>
-  <div class="sideitem-right"><img src="assets/images/bg-tablet-right.svg" alt=""></div>
+  <div class="sideitem-right"><img src="assets/images/bg-tablet-right.svg" alt="Pattern 1"></div>
   <div class="sideitem-left">
-    <img src="assets/images/bg-tablet-left.svg" alt="">
+    <img src="assets/images/bg-tablet-left.svg" alt=" Pattern 2">
   </div>
   <nav class="navbar">  
-    <div class=" navbar-brand"><a href="#"><img src="assets/images/logo.svg" class= 'logo'></a></div>
+    <div class=" navbar-brand"><a href="#"><img src="assets/images/logo.svg" class= 'logo' alt='logo'></a></div>
     <div class="navbar__mobile">
-      <svg width="100" height="max-content" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg width="100"  viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="78" height="15" fill="#212121" class='rect1'/>
         <rect y="21" width="78" height="15" fill="#212121" class='rect2''/>
         <rect y="42" width="77" height="15" fill="#212121" class='rect3'/>
@@ -46,7 +48,7 @@
         <button class="btn">Get Started</button>
       </div>
     </div>
-    <img src="assets/images/illustration-intro.svg" alt="" class="header--img">
+    <img src="assets/images/illustration-intro.svg" alt="3 Graphs" class="header--img">
   </section>
   <section class="section--info">
     
@@ -108,26 +110,26 @@
     <h1 class="section--testimonials__mainHeading">What they’ve said</h1>
     <div class="section--testimonials__container">
       <div class="section--testimonials__card">
-        <img src="assets/images/avatar-anisha.png" alt="" class="section--testimonials__card--img">
+        <img src="assets/images/avatar-anisha.png" alt="Anisha" class="section--testimonials__card--img">
         <h3 class="section--testimonials__card--heading">Anisha Li</h3>
         <p class="section--testimonials__card--subtext">“Manage has supercharged our team’s workflow. The ability to maintain 
           visibility on larger milestones at all times keeps everyone motivated.”</p>
       </div>
       <div class="section--testimonials__card">
-        <img src="assets/images/avatar-ali.png" alt="" class="section--testimonials__card--img">
+        <img src="assets/images/avatar-ali.png" alt="Ali" class="section--testimonials__card--img">
         <h3 class="section--testimonials__card--heading">Ali Bravo</h3>
         <p class="section--testimonials__card--subtext">“We have been able to cancel so many other subscriptions since using 
           Manage. There is no more cross-channel confusion and everyone is much 
           more focused.”</p>
       </div>
       <div class="section--testimonials__card">
-        <img src="assets/images/avatar-richard.png" alt="" class="section--testimonials__card--img">
+        <img src="assets/images/avatar-richard.png" alt="Richard" class="section--testimonials__card--img">
         <h3 class="section--testimonials__card--heading">Richard Watts</h3>
         <p class="section--testimonials__card--subtext"> “Manage allows us to provide structure and process. It keeps us organized 
           and focused. I can’t stop recommending them to everyone I talk to!”</p>
       </div>
       <div class="section--testimonials__card hidden">
-        <img src="assets/images/avatar-shanai.png" alt="" class="section--testimonials__card--img">
+        <img src="assets/images/avatar-shanai.png" alt="Shanai" class="section--testimonials__card--img">
         <h3 class="section--testimonials__card--heading">Shanai Gough</h3>
         <p class="section--testimonials__card--subtext"> “Their software allows us to track, manage and collaborate on our projects 
           from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
@@ -215,19 +217,18 @@
     </div>
   </section>
   <section class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
     Coded by <a href="#">Heet Vakharia</a>.
   </section>
 
-  <!-- // Gsap -->
+  <!--  Gsap -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-  <!-- // Slick -->
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <!--  Slick -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.1/jquery-migrate.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
-  <!-- //Custom -->
+  <!-- Custom -->
   <script src="assets/Scripts/animation.js"></script>
   <script src="assets/Scripts/app.js"></script>
 </body>
