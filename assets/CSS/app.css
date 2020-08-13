@@ -1,8 +1,13 @@
-html, * {
+html,
+* {
   font-size: 10px;
   margin: 0;
   box-sizing: border-box;
   font-family: "Be Vietnam", sans-serif;
+}
+
+body:not(.navbar, .sideitem-right, .sideitem-right) {
+  filter: blur(45px);
 }
 
 .hide__errMsg {
@@ -87,7 +92,8 @@ a {
   }
 }
 
-.slick-next::before, .slick-prev::before {
+.slick-next::before,
+.slick-prev::before {
   color: #212121 !important;
 }
 
@@ -283,7 +289,7 @@ a {
   display: flex;
 }
 .section--info__question {
-  width: 45%;
+  width: 70%;
   display: flex;
   flex-direction: column;
 }
@@ -296,11 +302,11 @@ a {
   width: 65%;
 }
 .section--info__question-subtext div {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #9095a7;
 }
 .section--info__points {
-  width: 60%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -311,6 +317,7 @@ a {
   display: flex;
   justify-content: space-around;
   align-self: center;
+  margin: 1rem;
 }
 .section--info__points-point .point--heading__number {
   margin: 1rem;
@@ -323,7 +330,6 @@ a {
   font-size: 1.2rem;
 }
 .section--info__points-point .point--content {
-  margin: 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -333,9 +339,9 @@ a {
 }
 .section--info__points-point .point--content__subtext {
   color: #9095a7;
-  margin-top: 1rem;
-  font-size: 1.3rem;
-  margin-left: 22%;
+  margin: 3rem 0rem 4rem 0rem;
+  font-size: 1.5rem;
+  margin-left: 17%;
 }
 @media (max-width: 1100px) {
   .section--info {
@@ -478,12 +484,12 @@ a {
 }
 .section--cta__heading {
   font-weight: 600;
-  color: #FFF;
+  color: #fff;
   width: 50%;
   font-size: 5rem;
 }
 .section--cta__btn {
-  background-color: #FFF;
+  background-color: #fff;
   color: #f25f3a;
   font-size: 1.5rem;
   padding: 0.8rem 0.5rem;
@@ -666,6 +672,7 @@ a {
   color: #fafafa;
   text-align: center;
   font-size: 1.5rem;
+  font-weight: normal;
   border: none;
 }
 .attribution a {

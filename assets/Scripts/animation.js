@@ -29,6 +29,15 @@ const navigationAnimation = () => {
     "start"
   );
   tl.to(
+    "#Attr",
+    3,
+    {
+      y: 50,
+      ease: Bounce.easeOut
+    },
+    "start"
+  );
+  tl.to(
     ".nav_hide",
     3,
     {
